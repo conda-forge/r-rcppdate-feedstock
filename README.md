@@ -5,11 +5,9 @@ Home: https://github.com/eddelbuettel/rcppdate
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: BSD-3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-rcppdate-feedstock/blob/master/LICENSE.txt)
 
 Summary: 'date' is a C++ header library offering extensive date and time functionality for the C++11, C++14 and C++17 standards written by Howard Hinnant and released under the MIT license. A slightly modified version has been accepted (along with 'tz.h') as part of C++20. This package regroups all header files from the upstream repository by Howard Hinnant so that other R packages can use them in their C++ code. At present, few of the types have explicit 'Rcpp' wrapper though these may be added as needed.
-
-
 
 Current build status
 ====================
