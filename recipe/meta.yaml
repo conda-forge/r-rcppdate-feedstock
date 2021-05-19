@@ -1,4 +1,4 @@
-{% set version = "0.0.2" %}
+{% set version = "0.0.3" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppDate_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppDate/RcppDate_{{ version }}.tar.gz
-  sha256: d494e691f28014967094fdb8779d6b2ff831f13f7e8193241e0313cc409b84b0
+  sha256: 9c5ee7cf76d63cd51e8faff831f5f865762868d7d705395960c0f22e9b238bdb
 
 build:
   merge_build_host: true  # [win]
