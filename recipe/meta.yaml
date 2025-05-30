@@ -1,4 +1,4 @@
-{% set version = "0.0.5" %}
+{% set version = "0.0.6" %}
 {% set posix = 'm2-' if win else '' %}
 
 package:
@@ -9,7 +9,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/RcppDate_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/RcppDate/RcppDate_{{ version }}.tar.gz
-  sha256: 9ed275a714b973f2ed5ce646e93937f6675c8377cab97b63deb12d998e8b5758
+  sha256: b32fa402cc282488a4061a12619308342df1a9d5145a412078014850f2fe6b50
 
 build:
   number: 0
